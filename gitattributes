@@ -1,0 +1,27 @@
+# Ensure consistent line endings across platforms
+* text=auto
+
+# Set default behavior for common file types
+*.md   text eol=lf
+*.js   text eol=lf
+*.py   text eol=lf
+*.ix   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# Treat custom Nexora language files as text
+*.nex  text
+
+# Mark files that should be treated as binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+
+# Linguist settings for GitHub language stats
+*.nex linguist-language=IX
+*.ix  linguist-language=IX
