@@ -1,0 +1,50 @@
+# Compiled source files
+*.class
+*.o
+*.out
+*.so
+*.exe
+
+# Log files and temp files
+*.log
+*.tmp
+*.swp
+
+# Python virtual environments
+.venv/
+env/
+venv/
+
+# Node modules (if frontend or tooling exists)
+node_modules/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing / Coverage
+coverage/
+*.cover
+*.pyc
+__pycache__/
+
+# Language-specific build artifacts
+dist/
+build/
+*.egg-info/
+
+# Security
+*.pem
+*.key
+.env
+.env.*
+
+# Nexora-specific
+# Add anything like compiled bytecode, cache, or interpreter outputs once runtime is defined
